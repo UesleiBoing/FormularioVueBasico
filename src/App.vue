@@ -5,7 +5,7 @@
 <script>
 import FormularioPadrao from './components/FormularioPadrao.vue'
 
-exporst default {
+export default {
   name: 'App',
   components: {
     FormularioPadrao
