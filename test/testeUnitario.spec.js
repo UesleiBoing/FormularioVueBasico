@@ -1,9 +1,11 @@
+import {soma} from './matematicas';
+
 test('1 + 1 = 2', 
     () => {
-        expect(1 + 3).toBe(2);
+        expect(soma(1, 1)).toBe(2);
     }, 
     () => {
-        expect(1 + 1).not.toBe(3);
+        expect(soma(1, 1)).not.toBe(3);
     }
 );
 
