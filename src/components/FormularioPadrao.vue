@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-6 bg-light">
-                <span class="fs-4">ENTRADA DE DADOS</span>
+                <span class="fs-4">ENTRADA DE DADOS NOVO</span>
                 <hr>
                 <!--<form @submit.prevent="enviar">-->
                 <form @reset.prevent="resetar()">
